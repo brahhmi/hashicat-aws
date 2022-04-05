@@ -9,5 +9,5 @@ module "s3-bucket" {
     enabled = true
   }
 
-  bucket_prefix = var.prifix
+  bucket_prefix = var.prefix
 }
